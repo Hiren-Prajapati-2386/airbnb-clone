@@ -7,7 +7,7 @@ A pixel-perfect, highly interactive, and responsive React clone of the Airbnb li
 ### Diagram 1: Folder Architecture & Component-Hook Connections
 > Color-coded map of every folder, component, and React Hook in the project with their data-flow connections.
 
-![Folder Architecture](./diagrams/diagram1-folder-architecture.png)
+![Folder Architecture](./diagrams/Folder_strucutre.png)
 
 ### Diagram 2: Screen Wiring Flow & Component Data Pipeline
 > Tiered view of the full page layout showing how user interactions flow through components into overlays, and how data from `listing.js` feeds each section.
