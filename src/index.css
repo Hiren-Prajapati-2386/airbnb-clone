@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-airbnb-rausch: #FF385C;
+  --color-airbnb-dark: #222222;
+  --color-airbnb-gray: #717171;
+  --color-airbnb-light-gray: #DDDDDD;
+  --color-airbnb-bg-light: #F7F7F7;
+  --color-airbnb-border: #EBEBEB;
+  
+  --font-sans: "Circular", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  
+  --shadow-card: 0 6px 16px rgba(0, 0, 0, 0.12);
+  --shadow-popover: 0 2px 16px rgba(0, 0, 0, 0.12);
+}
+
+@layer base {
+  body {
+    @apply text-airbnb-dark antialiased bg-white;
+  }
+}

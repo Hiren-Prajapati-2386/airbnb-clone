@@ -1,0 +1,5 @@
+[
+  {"id": "box1", "type": "rectangle", "x": 100, "y": 100, "width": 160, "height": 60, "text": "Box 1"},
+  {"id": "box2", "type": "rectangle", "x": 400, "y": 100, "width": 160, "height": 60, "text": "Box 2"},
+  {"type": "arrow", "x": 0, "y": 0, "startElementId": "box1", "endElementId": "box2"}
+]
